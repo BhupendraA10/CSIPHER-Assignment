@@ -124,7 +124,7 @@ function display() {
   Show.innerHTML = toShow;
 }
 
-function displayContent(id) {
+function ShowNow(id) {
   Show.innerHTML = " ";
   let toShow = " ";
   let data1 = data.filter((a) => a.type === id);
