@@ -130,7 +130,7 @@ function ShowNow(id) {
   let data1 = data.filter((a) => a.type === id);
   data1.map((item) => {
     toShow =
-     toShow +
+      toShow +
       `
         <div class="col-xs-4">
         <div class="thumbnail">
@@ -148,11 +148,11 @@ function ShowNow(id) {
 
 function search() {
   let input = document.getElementById("search").value;
-    Show.innerHTML = " ";
+  Show.innerHTML = " ";
   let toShow = " ";
   //if the search letter is present in name
-    let data1 = data.filter((a) => a.name.toLowerCase().includes(input));
-    data1.map((item) => {
+  let data1 = data.filter((a) => a.name.toLowerCase().includes(input));
+  data1.map((item) => {
     toShow =
       toShow +
       `
@@ -166,6 +166,6 @@ function search() {
         </div>
         </div>
         `;
-  }); 
+  });
   Show.innerHTML = toShow;
 }

@@ -166,8 +166,6 @@ console.log(realType(null));
 console.log(realType([]));  
  */
 
-
-
 //Q2:Numbers in String
 /* numCheck = (value)=>{
   for(let i=0;i<value.length;i++){
@@ -188,6 +186,3 @@ console.log(numInStr (["1a", "a", "2b", "b"]) );
 console.log(numInStr (["abc", "abc10"]));
 console.log(numInStr (["abc", "ab10c","a10bc","bcd"]));
 console.log(numInStr (["this is a test", "test1"])); */
-
-
-

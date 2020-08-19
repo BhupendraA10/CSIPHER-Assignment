@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -19,20 +19,53 @@
   </head>
   <body>
     <div class="container">
-      <div class="row" style="text-align:center">
-        <p style="font-family: cursive; font-size: 45px; display: inline;"> Our </p>
-        <p style="font-family: cursive; font-size: 85px; font-weight: bold;display: inline; "> Store</p>
+      <div class="row" style="text-align: center;">
+        <p style="font-family: cursive; font-size: 45px; display: inline;">
+          Our
+        </p>
+        <p
+          style="
+            font-family: cursive;
+            font-size: 85px;
+            font-weight: bold;
+            display: inline;
+          "
+        >
+          Store
+        </p>
       </div>
-      <br/>
-      <div class="row" style="text-align:center">
-        <button class="btn btn-default filter-button " onclick="display()">All</button>
-        <button class="btn btn-default filter-button" onclick="ShowNow('cameras')">CAMERAS</button>
-        <button class="btn btn-default filter-button" onclick="ShowNow('watches')">WATCHES</button>
-        <button class="btn btn-default filter-button" onclick="ShowNow('clothes')">CLOTHES</button>
-        <button class="btn btn-default filter-button" onclick="ShowNow('eatables')" >EATABLES</button>
-    </div>
-    <br/>
-      <br/>
+      <br />
+      <div class="row" style="text-align: center;">
+        <button class="btn btn-default filter-button" onclick="display()">
+          All
+        </button>
+        <button
+          class="btn btn-default filter-button"
+          onclick="ShowNow('cameras')"
+        >
+          CAMERAS
+        </button>
+        <button
+          class="btn btn-default filter-button"
+          onclick="ShowNow('watches')"
+        >
+          WATCHES
+        </button>
+        <button
+          class="btn btn-default filter-button"
+          onclick="ShowNow('clothes')"
+        >
+          CLOTHES
+        </button>
+        <button
+          class="btn btn-default filter-button"
+          onclick="ShowNow('eatables')"
+        >
+          EATABLES
+        </button>
+      </div>
+      <br />
+      <br />
       <div class="row">
         <div class="col-xs-6 col-xs-offset-3">
           <input
@@ -45,7 +78,7 @@
           />
         </div>
       </div>
-      <br/>
+      <br />
       <div class="row" id="display" style="margin-top: 10px;"></div>
     </div>
   </body>
